@@ -1,0 +1,105 @@
+/* Hero wrapper */
+.hero {
+    width: 100%;
+    min-height: 45vh;
+    /*background: linear-gradient(135deg, #ef8183 0%, #fc6668 100%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    color: #0a0a0a;
+    text-align: center;
+}
+
+/* Content container */
+.hero-content {
+    max-width: 900px;
+}
+
+/* Title */
+.hero-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+/* Intro words */
+.intro-words {
+    font-size: 1.2rem;
+    font-weight: 500;
+    /*color: #ffe4e6;*/
+    margin-bottom: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Subtext */
+.hero-subtext {
+    font-size: 1.1rem;
+    margin: 0 auto 2rem;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+/* Action buttons */
+.intro-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Base button */
+.intro-actions button {
+    padding: 0.7rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* Variants */
+.btn-primary {
+    background: white;
+    color: #fc6668;
+}
+
+.btn-primary:hover {
+    background: #ffe4e6;
+    color: #d33b3e;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background: #1a1a1a;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #333;
+    transform: scale(1.05);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-outline:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    .hero-subtext {
+        font-size: 1rem;
+    }
+}
