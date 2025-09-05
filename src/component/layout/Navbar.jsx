@@ -23,7 +23,7 @@ export default function Navbar() {
                     <div className="nav-links">
                         <a href="/" className="nav-item">Home</a>
                         <a href="#about" className="nav-item">About</a>
-                        <a href="#blog" className="nav-item">Blog</a>
+                        <a href="https://blog.tokslaw.com/" className="nav-item" target="_blank">Blog</a>
                         <a href="#project" className="nav-item">Projects</a>
                     </div>
 
